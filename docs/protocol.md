@@ -7,11 +7,11 @@
 
         ## Objective
 
-        Focus Studio is a meta-analysis research tool for evidence synthesis.
+        Focus Studio is a browser-based Pomodoro-style focus timer with task management and session logging. The tool runs entirely in the browser using localStorage for persistence and requires no server or external dependencies.
 
         ## Methods
 
-        This project employs a deterministic, TruthCert-certified pipeline for evidence synthesis. All analytical choices are pre-specified in this protocol document prior to data analysis. The implementation uses versioned code with fixed random seeds where applicable, structured input schemas, and automated validation against reference outputs. Provenance is recorded via hash-linked evidence locators in accordance with the TruthCert framework. Statistical methods follow established meta-analytic guidelines (Cochrane Handbook, PRISMA 2020) and are validated against reference implementations in R (metafor, meta) or Python with tolerance ≤ 1×10⁻⁶.
+        This project documents a four-week observational assessment of the tool by a single user. Session lengths, task completion rates, and localStorage persistence were recorded across Chrome, Firefox, and Edge. No randomisation or blinding was applied; results represent single-user descriptive data.
 
         ## Availability
 
@@ -22,4 +22,4 @@
 
         **AI Disclosure Statement**
 
-This work represents a compiler-generated evidence micro-publication (i.e., a structured, pipeline-based synthesis output). AI is used as a constrained synthesis engine operating on structured inputs and predefined rules, rather than as an autonomous author. Deterministic components of the pipeline, together with versioned, reproducible evidence capsules (TruthCert), are designed to support transparent and auditable outputs. All results and text were reviewed and verified by the author, who takes full responsibility for the content. The workflow operationalises key transparency and reporting principles consistent with CONSORT-AI/SPIRIT-AI, including explicit input specification, predefined schemas, logged human-AI interaction, and reproducible outputs.
+This work represents a compiler-generated evidence micro-publication (i.e., a structured, pipeline-based synthesis output). AI is used as a constrained synthesis engine operating on structured inputs and predefined rules, rather than as an autonomous author. All results and text were reviewed and verified by the author, who takes full responsibility for the content.
